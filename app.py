@@ -9,7 +9,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 # Assuming 'df' is your dataframe
 # Selecting features and target
-df = pd.read_csv('data\df.csv')
+df = pd.read_csv('df.csv')
 X = df.drop('STATUS', axis=1)
 y = df['STATUS']
 
